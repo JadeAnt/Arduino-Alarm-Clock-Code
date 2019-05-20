@@ -12,10 +12,43 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   int ticks, hours, mins, i, j;
+  char day[10];
 
  typedef enum{Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}days_of_week;
 
   days_of_week today;
+  
+  switch(today){
+      
+      case Sunday:
+        day[10] = "Sunday";
+        break;
+      
+      case Monday:
+        day[10] = "Sunday";
+        break;
+      
+      case Tuesday:
+        day[10] = "Sunday";
+        break;
+      
+      case Wednesday:
+        day[10] = "Sunday";
+        break;
+      
+      case Thursday:
+        day[10] = "Sunday";
+        break;
+     
+      case Friday:
+        day[10] = "Friday";
+        break
+        
+       case Saturday:
+         day[10] = "Saturday";
+         break;
+  
+  }
   
   if(ticks < 60){
     ticks++;
@@ -39,7 +72,7 @@ void loop() {
   
   
   lcd.setCursor(0,0);
-  lcd.print("Today: ");
+  lcd.print("Today: %s", day);
   
   lcd.setCursor(0,1);
   lcd.print("%d:%d:%d", hours, mins, ticks);
