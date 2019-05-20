@@ -25,19 +25,19 @@ void loop() {
         break;
       
       case Monday:
-        day[10] = "Sunday";
+        day[10] = "Monday";
         break;
       
       case Tuesday:
-        day[10] = "Sunday";
+        day[10] = "Tuesday";
         break;
       
       case Wednesday:
-        day[10] = "Sunday";
+        day[10] = "Wednesday";
         break;
       
       case Thursday:
-        day[10] = "Sunday";
+        day[10] = "Thursday";
         break;
      
       case Friday:
