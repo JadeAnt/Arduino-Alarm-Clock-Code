@@ -11,4 +11,4 @@ The fully built and programmed verison of the alarm clock was programmed in Atme
 - Design and build the alarm clock using a PCB board, microcontroller, and 8 bit display
 
 ## Example
-![Alarm Clock]()
+![Alarm Clock](https://github.com/JadeAnt/Arduino-Alarm-Clock-Code/blob/master/clockProject.jpg)
